@@ -6,6 +6,8 @@
 
 This is a refactor of an existing full-stack store application. The original app used React Context to manage global state. I refactored it to use Redux instead of Context. The app uses React, Redux, MongoDB Atlas, Node, Express and Stripe for payment processing.
 
+Please view the deployed version HERE.
+
 ## Table of Contents
 
 - [Installation](#installation)
