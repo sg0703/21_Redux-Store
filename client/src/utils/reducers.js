@@ -10,6 +10,7 @@ import {
   TOGGLE_CART,
 } from './actions';
 
+// moved initial state into this file 
 const initialState = {
   products: [],
   cart: [],
