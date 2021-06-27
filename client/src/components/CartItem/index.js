@@ -3,14 +3,12 @@ import React from 'react';
 import { REMOVE_FROM_CART, UPDATE_CART_QUANTITY } from "../../utils/actions";
 import { idbPromise } from "../../utils/helpers";
 
-// new stuff for redux 
+// only need to import dispatch hook
 import { useDispatch } from 'react-redux';
 
 const CartItem = ({ item }) => {
-  // redux refactor 
+  // redux refactor, use dispatch hook
   const dispatch = useDispatch();
-  
-  //const [, dispatch] = useStoreContext();
 
   const removeFromCart = item => {
     dispatch({
