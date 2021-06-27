@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a refactor of an existing full-stack store application. The original app used React Context to manage global state. I refactored it to use Redux instead of Context. The app uses React, Redux, MongoDB Atlas, Node, Express and Stripe for payment processing.
+Redux store is a full stack e-commerce app that allows users to view items available for sale, create an account, add the items to their shopping cart, and order them using Stripe. This is a refactor of an existing full-stack e-commerce application. The original app used React Context to manage global state. I refactored it to use Redux instead of Context. The app uses MongoDB Atlas, Express, React, Node and Stripe for payment processing.
 
 Please view the deployed version [here](https://tranquil-lowlands-52731.herokuapp.com/).
 
@@ -23,7 +23,7 @@ Clone the repo, run npm install, and run develop to run locally.
 
 ## Usage
 
-This is an electronic store app. You can navigate just like any other store, add items to a cart, and check out. There is also a sign up feature so that you can create an account.
+This is an e-commerce store app. You can navigate just like any other store, add items to a cart, and check out. There is also a sign up feature so that you can create an account and log in.
 
 ![Screenshot 1](readme/screen1.png)
 ![Screenshot 2](readme/screen2.png)
