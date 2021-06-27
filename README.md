@@ -6,7 +6,7 @@
 
 This is a refactor of an existing full-stack store application. The original app used React Context to manage global state. I refactored it to use Redux instead of Context. The app uses React, Redux, MongoDB Atlas, Node, Express and Stripe for payment processing.
 
-Please view the deployed version HERE.
+Please view the deployed version [here](https://tranquil-lowlands-52731.herokuapp.com/).
 
 ## Table of Contents
 
@@ -25,9 +25,9 @@ Clone the repo, run npm install, and run develop to run locally.
 
 This is an electronic store app. You can navigate just like any other store, add items to a cart, and check out. There is also a sign up feature so that you can create an account.
 
-![Screenshot 1](assets/images/screen1.png)
-![Screenshot 2](assets/images/screen2.png)
-![Screenshot 3](assets/images/screen3.png)
+![Screenshot 1](readme/screen1.png)
+![Screenshot 2](readme/screen2.png)
+![Screenshot 3](readme/screen3.png)
 
 ## Contribute
 
